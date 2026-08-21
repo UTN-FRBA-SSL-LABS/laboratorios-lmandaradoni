@@ -28,4 +28,5 @@ int carrito_total(Carrito *c) {
 
 int carrito_descuento(int total, int porcentaje) {
     return total - (total * porcentaje / 100);
+    
 }
